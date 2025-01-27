@@ -34,8 +34,10 @@ class FlappyBird {
     // Inits
     initConstants() {
         // Initialise dependent properties.
-        this.BOARD_HEIGHT               = this.config.BOARD_HEIGHT;
-        this.BOARD_WIDTH                = this.config.BOARD_WIDTH;
+        const aspectRatio               = 9 / 16;
+
+        this.BOARD_HEIGHT               = window.innerHeight;
+        this.BOARD_WIDTH                = this.BOARD_HEIGHT * aspectRatio;
 
         this.XX                         = -this.BOARD_WIDTH  /120;
         this.Y                          = -this.BOARD_HEIGHT /96;
