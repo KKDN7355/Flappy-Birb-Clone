@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Flappy Bird Clone
 
 Flappy Bird Clone is a JavaScript-based 2D arcade-style game that challenges players to navigate a bird through a series of pipes without crashing. This project is built using HTML5 Canvas for rendering and JavaScript for game mechanics, animation, sound integration, and event handling. The game features gravity inversion, pipe obstacles, score tracking, and sound effects, making for an engaging and fun experience.
@@ -83,3 +84,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Inspiration from the original Flappy Bird game.
 * Thanks to online resources for tutorials and guides.
 * Special thanks to contributors for suggestions and feedback.
+=======
+# Flappy-Birb-Clone
+>>>>>>> b68a089060432d23f5eef9f2417010b771809eee
