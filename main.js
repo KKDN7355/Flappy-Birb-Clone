@@ -4,10 +4,6 @@ const gameConfig = {
     FRAMES_PER_SECOND:                  15,     // Frames per second.
     FADE_STEP:                          0.05,   // Alpha decrement per fade interval.
     FADE_INTERVAL:                      50,     // Interval for tutorial fade effect (in ms).
-
-    // NOT okay to touch these.
-    BOARD_WIDTH:                        360,    // Default width of the game board. To be dynamically altered based on screen size.
-    BOARD_HEIGHT:                       640,    // Default height of the game board. To be dynamically altered based on screen size.
 };
 
 class FlappyBird {
@@ -40,7 +36,7 @@ class FlappyBird {
         this.BOARD_WIDTH                = this.BOARD_HEIGHT * aspectRatio;
 
         this.XX                         = -this.BOARD_WIDTH  /120;
-        this.Y                          = -this.BOARD_HEIGHT /96;
+        this.Y                          = -this.BOARD_HEIGHT /80;
         this.YY                         = 0;
         this.YYY                        = this.BOARD_HEIGHT  /1280;
 
