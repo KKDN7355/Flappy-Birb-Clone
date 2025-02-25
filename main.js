@@ -36,7 +36,7 @@ class FlappyBird {
         this.BOARD_WIDTH                = this.BOARD_HEIGHT * aspectRatio;
 
         this.XX                         = -this.BOARD_WIDTH  /150;
-        this.Y                          = -this.BOARD_HEIGHT /96;
+        this.Y                          = -this.BOARD_HEIGHT /80;
         this.YY                         = 0;
         this.YYY                        = this.BOARD_HEIGHT  /1280;
 
