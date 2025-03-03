@@ -1,4 +1,4 @@
-# Flappy Bird Clone (in Java)
+# Flappy Bird Clone (in HTML5 and JS)
 
 ## Description
 
@@ -11,7 +11,7 @@ Purely so if anyone wanted to try it out, they can do so here: https://kkdn7355.
 ## Demo
 
 <p align="center">
-  <img src="Flappy-Birb-Clone-Demo.gif" alt="Demo">
+  <img src="Flappy-Birb-Clone-Demo.gif" alt="Demo" width="300">
 </p>
 
 ## Getting Started
