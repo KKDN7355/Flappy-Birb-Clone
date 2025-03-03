@@ -1,4 +1,6 @@
-# Flappy Bird Clone
+# Flappy Bird Clone (in Java)
+
+## Description
 
 Flappy Bird Clone is a JavaScript-based 2D arcade-style game that challenges players to navigate a bird through a series of pipes without crashing. This project is built using HTML5 Canvas for rendering and JavaScript for game mechanics, animation, sound integration, and event handling. The game features gravity inversion, pipe obstacles, score tracking, and sound effects, making for an engaging and fun experience.
 
@@ -7,21 +9,18 @@ I made this by translating code I wrote in Java from this repository: https://gi
 Purely so if anyone wanted to try it out, they can do so here: https://kkdn7355.github.io/Flappy-Birb-Clone/
 
 ## Demo
+
 <p align="center">
   <img src="Flappy-Birb-Clone-Demo.gif" alt="Demo">
 </p>
 
 ## Getting Started
 
-These instructions will guide you through getting a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system. 
-
-### Prerequisites
+### Dependencies:
 
 - **Web Browser**: A modern web browser (Google Chrome, Mozilla Firefox, etc.) is required to play the game.
 
-No installation of additional software is needed.
-
-### Installing
+### Executing Program:
 
 1. Clone the repository:
    ```bash
@@ -31,23 +30,9 @@ No installation of additional software is needed.
 
 2. Open `index.html` in your browser:
    ```bash
-   open index.html  # For macOS
+   open index.html   # For macOS
    start index.html  # For Windows
    ```
-
-The game should now be running in your browser.
-
-## Running the Game
-
-1. To start playing, simply click or press the space bar (or enter) on the keyboard to begin the game.
-
-2. Use the space bar or left mouse click to control the bird's movement. The bird will "flap" and rise in the air each time the space bar is pressed.
-
-3. The game ends when the bird collides with a pipe or flies off the screen.
-
-### Controls
-
-- **Spacebar**: Flap the bird to rise
 
 ## Features
 
@@ -56,11 +41,9 @@ The game should now be running in your browser.
 - **Sound Effects**: Various sound effects play for actions like jumping, scoring, and dying.
 - **Pipes**: Randomly generated pipes appear, and the player must avoid hitting them.
 
-## Built With
+## Roadmap
 
-* **HTML5 Canvas** - For rendering the game scene
-* **JavaScript** - For game logic and interactions
-* **Audio** - For sound effects and background music
+N/A
 
 ## License
 
